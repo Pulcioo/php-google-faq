@@ -18,6 +18,15 @@
     <?php
         include 'database.php';
     ?>
+
+    <div class="container">
+        <?php
+            foreach ($faqs as $faq) {
+                echo ($faq["domanda"]);
+                echo ($faq["risposta"]);
+            }
+        ?>
+    </div>
     
 </body>
 </html>
