@@ -1,0 +1,103 @@
+/* GENERICS*/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.header-top .left img {
+    width: 100px;
+}
+
+.header-top .left h2 {
+    color: #5f6368;
+    font-size: 20px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.header-top .right i {
+    color: #5f6368;
+}
+
+.header-top .right .circle {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(30, 147, 102);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top .right span {
+    color: white;
+}
+
+.header-bottom {
+    width: 100%;
+}
+
+.header-bottom ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.header-bottom ul li {
+    color: #5f6368;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+hr {
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* FAQS-CONTAINER */
+.faqs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.faqs-container p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.faqs-container li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.faqs-container a {
+    text-decoration: none;
+    color: rgb(46, 102, 232);
+}
