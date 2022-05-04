@@ -15,6 +15,9 @@
         Mi raccomando di gestire per prima cosa la visualizzazione dei dati, anche in maniera grezza,
         e solo alla fine rendere più accattivante la pagina. 
     -->
+    <?php
+        include 'database.php';
+    ?>
     
 </body>
 </html>
