@@ -56,5 +56,23 @@
         ?>
     </div>
     
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer-left">
+                <ul>
+                    <li>Google - </li>
+                    <li> Tutto su Google - </li>
+                    <li> Privacy - </li>
+                    <li> Termini</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <select name="language">
+                    <option value="Italiano">Italiano</option>
+                    <option value="Inglese">Inglese</option>
+                </select>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
